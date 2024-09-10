@@ -1,0 +1,16 @@
+.mb-2{
+    width: 150px;
+    border-radius: 8px;
+}
+.mb-4{
+    width: 150px;
+    border-radius: 8px;
+
+}
+.mb-2:hover{
+    background-color: rgb(230, 239, 239);
+}
+.mb-4:hover{
+    background-color: rgb(230, 239, 239);
+    width: '150px'
+}

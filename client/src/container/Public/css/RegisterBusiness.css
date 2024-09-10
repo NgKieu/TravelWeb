@@ -1,0 +1,75 @@
+.body {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+.selected-value-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected-option {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 20px;
+}
+
+.remove-button {
+  margin-left: 8px;
+  cursor: pointer;
+}
+.placeholder {
+  color: #a3a9b5;
+  font-size: 15px;
+}
+
+.register-page {
+  display: flex;
+  box-shadow: -2px 2px 20px 8px #a3a9b5;
+  width: 52%;
+  margin: 20px auto;
+  height: 780px;
+}
+
+.image-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 370px;
+}
+.image-text {
+  text-align: center;
+  margin-top: 100px;
+}
+.register-form-container {
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 37px;
+  width: 455px;
+}
+
+.title {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.form-label {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+button.submit-btn {
+  margin-left: -8px;
+  margin-top: 12px;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 25px;
+}
+.checkbox-not-checked {
+  background-color: lightgray;
+  cursor: not-allowed;
+}

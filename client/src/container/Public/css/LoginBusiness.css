@@ -1,0 +1,65 @@
+.selected-value-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected-option {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-right: 20px;
+}
+
+.placeholder {
+  color: #a3a9b5;
+  font-size: 15px;
+}
+
+.login-page {
+  display: flex;
+  box-shadow: -2px 2px 20px 8px #a3a9b5;
+  width: 52%;
+  margin: 100px auto;
+  height: 450px;
+}
+
+.image-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  width: 380px;
+}
+.login-form-container {
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-right: 37px;
+  width: 455px;
+}
+
+.title {
+  padding-top: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form-label {
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+button.submit-btn {
+  margin-left: -8px;
+  margin-top: 12px;
+  background: #ff3366;
+  border: 0px;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 25px;
+}
+.checkbox-not-checked {
+  background-color: lightgray;
+  cursor: not-allowed;
+}

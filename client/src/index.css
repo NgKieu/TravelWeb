@@ -1,0 +1,333 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+/* Hide the default scroll bar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Style the track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Style the thumb */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Style the thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.font-app {
+  font-family: "Questrial", sans-serif;
+}
+
+.background {
+  background: url(./assets/Group-485-1.jpg);
+  width: 100%;
+  height: 645px;
+  margin-top: 53px;
+  margin-right: 1531px;
+  display: flex;
+  background-repeat: no-repeat;
+}
+.two {
+  background: url(./assets/Frame-67-1.jpg);
+  width: 100%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  height: 594px;
+}
+
+#loiich {
+  background: url(./assets/Frame-66.jpg);
+  width: 100%;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  height: 825px;
+  background-position: center 30%;
+}
+#doitac {
+  background: url(./assets/Frame-917.jpg);
+  width: 100%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  height: 554px;
+  background-position: center center;
+}
+.lienhe {
+  background: url(./assets/bg_foooter-1-2.jpg);
+  width: 100%;
+  background-size: 130%;
+  background-repeat: no-repeat;
+  height: 458px;
+  background-position: center center;
+}
+
+li:after {
+  display: block;
+  content: "";
+  bottom: -50px;
+  border-bottom: solid 1px #222222;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+li.active {
+  color: #ff3366;
+  border-bottom: solid 1px #ff3366;
+}
+li:hover {
+  outline: solid 20px transparent;
+  cursor: pointer;
+}
+li:hover:after {
+  transform: scaleX(1);
+}
+
+#mySpan {
+  color: red;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: rgb(0, 0, 0) !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-item-img {
+  object-fit: cover;
+  padding: 0px 5px;
+  border-radius: 14px;
+}
+.hotel-card {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+.hotel-card img {
+  border-radius: 8px 8px 0px 0px;
+}
+.name-hotel {
+  font-size: 18px;
+  font-weight: 600;
+}
+.rate5 {
+  display: flex;
+}
+.rate5 div {
+  margin-right: 3px;
+}
+.all-city button {
+  border: 1px solid gray;
+  margin-right: 12px;
+  padding: 0px 12px;
+  border-radius: 100px;
+}
+.seven {
+  background: url(./assets/seven.jpg);
+  width: 1300px;
+  height: 433px;
+  background-position: center center;
+  margin: auto;
+  margin-bottom: 120px;
+}
+.six {
+  background: url(./assets/six.jpg);
+  width: 1300px;
+  height: 433px;
+  background-size: 120%;
+  margin: auto;
+  margin-bottom: 120px;
+  background-position: center center;
+  border-radius: 10px;
+}
+.w1 {
+  background: url(./assets/w1.jpg);
+  width: 280px;
+  height: 364px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.w2 {
+  background: url(./assets/w2.jpg);
+  width: 280px;
+  height: 364px;
+}
+.w3 {
+  background: url(./assets/w3.jpg);
+  width: 280px;
+  height: 364px;
+}
+.w4 {
+  background: url(./assets/w4.jpg);
+  width: 280px;
+  height: 364px;
+}
+.detail-hotel .header {
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.detail-hotel .box-search-detail-hotel {
+  margin-top: -60px;
+}
+/* .box-license .col-span-1 {
+  border: 1px solid rgb(232, 247, 255);
+  border-radius: 10px;
+} */
+.box-apply {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.room-infor-detailhotel {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.search-room .header {
+  border-bottom: 1px solid rgb(235, 235, 235);
+}
+.font-app input::placeholder {
+  font-weight: 100;
+}
+.container-rankHotel {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 13px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container-rankHotel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 3px;
+}
+
+/* On mouse-over, add a grey background color */
+.container-rankHotel:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container-rankHotel input:checked ~ .checkmark {
+  background-color: #2196f3;
+  border-radius: 3px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container-rankHotel input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container-rankHotel .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 7px;
+  height: 11px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.shadow1 {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #edf2f7;
+}
+
+.box-filter div {
+  padding: 6px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.shadow2 {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* thong bao */
+.notification {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  animation: fadeInOut 0.5s;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.react-calendar{
+  border-radius: 8px;
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;      
+  padding: 10px !important;
+  width: 450px !important;
+  position: relative;
+  top: 5px;
+  z-index: 99;
+}
+.calendarCheckOut-search-bar{
+  right: 613px !important;
+  top: 200px;
+}
+.calendarCheckIn-search-bar{
+  left: 513.5px !important;
+  top: 200px;
+}
+.circle-container {
+  display: inline-block;
+  margin: 20px;
+}
+.calendarCheckIn-choose-room{
+  left: 0px;
+  top: 120px;
+}
+.calendarCheckOut-choose-room{
+  left: 460px;
+  top: 120px;
+}
+.swal2-timer-progress-bar{
+  background-color: #ff3366;
+}
